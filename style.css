@@ -8,7 +8,7 @@ h1{
     animation-name: ani;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 10px;
     width: 700px;
 }
@@ -45,6 +45,7 @@ h1{
     padding: 5px;
     margin-left: 90px;
     margin-top: 30px;
+    width: 400px;
 }
 
 b{
@@ -77,4 +78,44 @@ body{
 
 .jb9{
     margin-top: 10px;
+}
+
+.yu8{
+    color: red;
+}
+
+.hu6{
+    animation-name: ani2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    font-size: 30px;
+}
+
+@keyframes ani2{
+    0%{color: lightcoral;}
+    25%{color: lightgoldenrodyellow;}
+    50%{color: lightgreen;}
+    75%{color: lightsalmon;}
+    100%{color: lightcoral;}
+}
+
+.io9{
+    font-size: 20px;
+    animation-name: ani2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.jk4{
+    color: black;
+    font-size: 30px;
+}
+
+.sbns{
+    background-color: white;
+    margin-top: 2300px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 1500px;
 }
